@@ -1,4 +1,4 @@
-# Tabular-Playground
+# goodbooks-10k recommendation system
 
 This is a collection of my code from the [goodbooks-10k](https://www.kaggle.com/zygmunt/goodbooks-10k) Kaggle dataset.
 
