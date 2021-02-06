@@ -55,8 +55,8 @@ def als_model() -> Tuple[Dict[int, List], Dict[int, List]]:
 
         if len(rec_list) < 200:
             for i in popular_rec_model[0:200]:
-                if rec not in seen:
-                    rec_list.append(rec)
+                if i not in seen:
+                    rec_list.append(i)
 
         total_rec_list[idx2user[user]] = rec_list[0:200]
     return total_rec_list, gt
